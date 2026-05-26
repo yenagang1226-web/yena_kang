@@ -25,6 +25,9 @@ st.image("파이썬 사진.webp", caption="파이썬 로고", width=500)
 st.markdown("### :orange[오디오: st.audio()]")
 st.audio("오디오 임시.mp3", format="audio/mpeg", loop=True)
 
+st.markdown("### :orange[동영상: st.video()]")
+st.video("동영상 임시.mp4", "rb")
+
 st.markdown("# :blue[데이터 테이블]")
 
 st.markdown("### :orange[Pandas 데이터프레임]")
