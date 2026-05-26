@@ -1,16 +1,17 @@
 import streamlit as st
 
+st.markdown("""
 # 비즈니스 모델 분석
-st.title("비즈니스 모델 분석")
 
-st.markdown("[네이버](https://www.naver.com)")
-st.markdown("[홍익대학교](https://www.hongik.ac.kr)")
+[네이버](https://www.naver.com)
 
-st.write("이것이 일반 본문")
+[홍익대학교](https://www.hongik.ac.kr)
 
-st.caption("캡션: 작고 흐린 글씨로 표현됨")
+이것이 일반 본문
 
-with st.echo():
-    # 이 블록의 코드와 결과를 출력
-    name = "Yena Kang"
-    st.write("Hello, Streamlit!", name)
+**이것이 굵은 글씨**
+
+*이것이 기울임 글씨*
+            
+red[빨간색글씨] 
+""")
