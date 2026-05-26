@@ -21,3 +21,27 @@ st.title("비즈니스 모델 분석")
 
 st.markdown("### :orange[이미지: st.image()]")
 st.image("파이썬 사진.webp", caption="파이썬 로고", width=500)
+
+st.markdown("# :blue[데이터 테이블]")
+
+st.markdown("### :orange[Pandas 데이터프레임]")
+
+import pandas as pd
+
+df = pd.DataFrame(
+    {
+        'id': [1, 2, 3],
+        'name': ['Alice', 'Bob', 'Charlie'],
+        'age': [24, 34, 45]
+    }
+)
+
+st.dataframe(df)
+
+st.markdown("### :orange[지표(Metric)]")
+
+col1, col2, col3 = st.columns(3)
+
+col1.metric("Temperature", "70 °F", "1.2 °F")
+col2.metric("Wind", "9 mph", "-8%")
+col3.metric("Humidity", "86%", "4%")
