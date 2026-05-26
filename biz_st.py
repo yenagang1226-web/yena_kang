@@ -21,14 +21,3 @@ st.title("비즈니스 모델 분석")
 
 st.markdown("### :orange[이미지: st.image()]")
 st.image("파이썬 사진.webp", caption="파이썬 로고", width=500)
-
-st.markdown("### :orange[오디오: st.audio()]")
-st.audio("성당.mp3", format="audio/mpeg", loop=True)
-
-# 'rb' : 바이너리 모드로 파일 열기
-video_file = open("./data/stars.mp4", "rb")
-video_bytes = video_file.read()
-
-st.video(video_bytes)
-
-st.divider()  # 👈 구분선
