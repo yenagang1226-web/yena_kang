@@ -2,8 +2,7 @@ import streamlit as st
 
 # 비즈니스 모델 분석
 
-[네이버](https://www.naver.com)
-[홍익대학교](https://www.hongik.ac.kr)
+st.markdown("[네이버](https://www.naver.com)")
 
 이것이 일반 본문
 
