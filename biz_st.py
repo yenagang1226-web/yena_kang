@@ -45,3 +45,11 @@ col1, col2, col3 = st.columns(3)
 col1.metric("Temperature", "70 °F", "1.2 °F")
 col2.metric("Wind", "9 mph", "-8%")
 col3.metric("Humidity", "86%", "4%")
+
+st.markdown("""
+| 이름 | 학번 | 학과 |
+|------|------|------|
+| 홍길동 | 20230001 | 컴퓨터공학과 |
+| 김철수 | 20230002 | 전자공학과 |
+| 이영희 | 20230003 | 기계공학과 |
+""")
